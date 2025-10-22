@@ -7,8 +7,8 @@ phases:
   build:
     commands: 
       - echo "validando plantillas cloudFormation..."
-      - aws cloudformation valide-template --template-body file://templates/s3_group_policy.yaml
-      - aws cloudformation valide-template --template-body file://templates/ec2_s3_role.yaml
+      - aws cloudformation validate-template --template-body file://templates/s3_group_policy.yaml
+      - aws cloudformation validate-template --template-body file://templates/ec2_s3_role.yaml
       - echo "OK validacion completa"
 artifacts:
   file:
