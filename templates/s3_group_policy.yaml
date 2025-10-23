@@ -11,7 +11,7 @@ Resources:
     Properties:
       GroupName: DevAcademyLabGroup
  
-  MyPolicyBadi:
+  MyPolicy:
     Type: AWS::IAM::Policy
     DependsOn: MyGroupBadi
     Properties:
@@ -36,4 +36,4 @@ Resources:
 Outputs:
   BucketName: { Value: !Ref MyBucketBadi }
   GroupName:  { Value: !Ref MyGroupBadi }
-  PolicyName: { Value: !Ref MyPolicyBadi }
+  PolicyName: { Value: !Ref MyPolicy }
