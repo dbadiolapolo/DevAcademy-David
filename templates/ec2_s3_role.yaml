@@ -68,3 +68,4 @@ Outputs:
   AMIUsed:
     Description: "AMI ID utilizada para la instancia"
     Value: !Ref LatestAmiId
+ 
