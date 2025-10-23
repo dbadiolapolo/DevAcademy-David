@@ -4,7 +4,7 @@ Resources:
   MyBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub lab-${AWS::AccountId}-personal
+      BucketName: !Sub lab-${AWS::AccountId}-personal2
 
   MyGroup:
     Type: AWS::IAM::Group
